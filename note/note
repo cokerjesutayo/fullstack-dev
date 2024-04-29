@@ -1,371 +1,534 @@
-<body>
-    <header class="bg-info-subtle vh-100">
-      <!-- nav bar -->
-      <nav class="navbar navbar-expand-lg bg-body-transparent">
-        <div class="container">
-          <a class="navbar-brand h2 fs-1 text-danger" href="/">
-            TAYO <span class="text-info"> COKER</span>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse d-lg-flex justify-content-end"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link fs-5" aria-current="page" href="#about"
-                  >ABOUT</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-5" href="#contact">CONTACT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-5" aria-current="page" href="#projects"
-                  >PROJECTS</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Stack DEV MAY</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary  position-sticky top-0 " style="z-index: 999;">
+  <div class="container-fluid ">
+    <img class="mt-5 ms-5 img-fluid" src="./images/Frame 11.png" alt="logo">
+    <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 ">
+        <li class="nav-item mx-3 "  style="font-weight: 500; font-size: 16px; color: #000000; ">
+          <a class="nav-link " aria-current="page" href="#">Members</a>
+        </li>
+         <li class="nav-item mx-3" style=" font-weight: 500; font-size: 16px; ">
+          <a class="nav-link" style="color: #7C0B0B;" href="#">Home</a>
+        </li>
+        <li class="nav-item mx-3" style=" font-weight: 500; font-size: 16px; color: #000000;">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+         <li class="nav-item mx-3" style=" font-weight: 500; font-size: 16px;color: #000000; " >
+          <a class="nav-link " href="#">About Us</a>
+        </li>
+    </div>
+     <button class="btn  d-none d-lg-block mx-5"style=" font-weight: 500; font-size: 16px;background-color: #7C0B0B; color: #FFFFFF; " type="submit">Login</button>
+  </div>
 
-      <!-- hero section -->
-      <div
-        class="container d-flex align-items-center justify-content-between mt-5 h-75"
-      >
-        <div class="text-start">
-          <h1 class="display-1 fw-bolder">Tayo Coker</h1>
-          <h2 class="display-3 text-secondary">Fullstack Developer</h2>
-          <p class="fs-4 text-capitalize">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nemo?
-          </p>
-          <a href="mailto:joyscoker20@gmail.com" class="btn btn-outline-info">
-            Get In Touch</a
-          >
-          <div class="mt-3 d-flex gap-3">
-            <!-- linkedin -->
-            <a
-              href="https://linkedin.com"
-              class="text-decoration-none text-info"
-            >
-              <i class="bi bi-linkedin fs-3"></i
-            ></a>
-            <a
-              href="https://twitter.com"
-              class="text-decoration-none text-info"
-            >
-              <i class="bi bi-twitter fs-3"></i
-            ></a>
-            <a
-              href="https://instagram.com"
-              class="text-decoration-none text-info"
-            >
-              <i class="bi bi-instagram fs-3"></i
-            ></a>
-            <a
-              href="https://facebook.com"
-              class="text-decoration-none text-info"
-            >
-              <i class="bi bi-facebook fs-3"></i
-            ></a>
-          </div>
-        </div>
-        <div class="d-none d-md-block">
-          <img
-            src="https://images.pexels.com/photos/7480266/pexels-photo-7480266.jpeg?auto=compress&cs=tinysrgb&w=600"
-            width="400px"
-            alt="my image"
-          />
-        </div>
+      </nav> 
+      <div  >
+        <img class="img-fluid" src="./images/Rectangle 1.png" alt=" ">
       </div>
+      
     </header>
 
-    <main>
-       <section id="contact" class="bg-info-subtle py-4">
-        <div class="container">
-          <div class="row justify-content-center">
-            <h2 class="text-center">Contact Me!</h2>
-            <div class="col-md-6">
-              <form  class="shadow-lg p-4 rounded-4">
-                <label for="name" class="form-label mt-2">Full Name</label>
-                <input for="text" id="name" placeholder="Tayo Coker" class="form-control"></input>
+  <main style="z-index: 3;">
+    <!-- 1st -->
+      <section class="mt-5">
+        <div class="container justify-content-center ">
+  <div class="row">
 
-                  <label for="name" class="form-label mt-2">Email Address</label>
-                <input for="email" id="email" placeholder="abc@example.com" class="form-control"></input>
+    <!-- 1st column -->
+    <div class="col ">
+       <div
+                class="container-sm "
+                style="border: 1px solid #7c0b0b; height: 651px;"
+              >
+                <h1 class="text-start mt-5  mx-2" style="color: #7c0b0b ; font-weight: 700; font-size: 30px;">
+                  Find True Love
+                </h1>
+                <p class="text-start mx-2" style="color: #7c0b0b; font-weight: 500; font-size: 16px;">
+                  Your Perfect Match Is Just One Click Away
+                </p>
 
-                <label for="msg" class="form-label mt-2">Message</label>
-                <textarea  id="msg" placeholder="Type your message" cols="30" rows="10" class="form-control"></textarea>
+                <!-- form -->
+                <form class="container-sm" >
+                   <label for="name" class="form-label mt-2" style="font-weight: 500; font-size: 16px;">I am a:</label>
+                <input for="text" id="name" placeholder="Man Seeking a Woman " class="form-control mb-3" style="border: 1px solid #7C0B0B; border-radius: 0px;"></input>
 
-                <button class="btn btn-info mt-4 text-white fs-5 mx-auto d-block w-100">Send Message!</button>
-              </form>
-      <section id="skills" class="bg-secondary-subtle py-4">
-       <div class="container">
-        <div class="row justify-content-center align-items-center ">
-          <h3 class="text-center  px-5 ">Skills.</h3>
-             <div class="col-lg-6">
-            <img src="https://images.unsplash.com/photo-1508317469940-e3de49ba902e?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2tpbGxzfGVufDB8fDB8fHww" class="img-fluid"
-                height="200px"
-                alt="skills">
-          </div>
-          <div class="col-lg-2 my-5">
-            <h4 >Frontend</h4>
-            <hr>
-            <p>Javascript</p>
-            <p>ReactJS</p>
-            <p>NextJS</p>
-            <p>CSS3</p>
-          </div>
-          <div class="col-lg-2 my-5">
-            <h4>Backend</h4>
-            <hr>
-            <p>NodesJS</p>
-            <p>MongoDB</p>
-            <p>ExpressJS</p>
-            <p>Vercel</p>
-          </div>
-          <div class="col-lg-2  my-5">
-            <h4>Soft Skills</h4>
-            <hr>
-            <p>Effective communication</p>
-            <p>Collaboration</p>
-            <p>Commitment</p>
-            <p>Leadership</p>
-          </div>
+                <label for="name" class="form-label mt-2"  style="font-weight: 500; font-size: 16px;">Name*</label>
+                <input for="text" id="name" placeholder="John Bull" class="form-control mb-3 " style="border: 1px solid #7C0B0B; border-radius: 0px;"></input>
+                  <label for="name" class="form-label mt-2"  style="font-weight: 500; font-size: 16px;">Email Address*</label>
+                <input for="email" id="email" placeholder="Enter Email" class="form-control mb-3" style="border: 1px solid #7C0B0B; border-radius: 0px ;"></input>
 
-          </div>
-       </div>
+                <label for="msg" class="form-label mt-2"  style="font-weight: 500; font-size: 16px;">Zip-code*</label>
+                <input for="text" id="text" placeholder="xxx-xxx-xxx" class="form-control  mb-4" style="border: 1px solid #7C0B0B; border-radius: 0px;"></input>
+           
+                <button
+              type="button"
+              class=" d-block m-auto "
+              style="background-color: #7c0b0b; color: #ffffff; width: 96px; height: 40px; border-radius: 10px; padding: 10px; gap: 10px; border: none;"  > Join Now
+            </button>
+                </form>
+              </div>
+    </div>
+
+    <!-- 2nd column -->
+    <div class="col d-none d-lg-block">
+      <img
+                src="./images/Rectangle 4.png"
+                class="img-fluid  "
+                height="651px"
+                width="558px"
+              
+                alt="couples-together"
+              />
+    </div>
+    
+  </div>
+</div>
       </section>
 
-      <!-- projects section -->
-      <section id="projects" class="bg-white py-4">
-        <h2 class="text-center">Projects</h2>
+    <!-- 2nd -->
+    <section class="text-center container  mt-5">
+        <h2 style="font-weight: 700; font-size: 30px; color: #000000;">About Us</h2>
+        <p style="font-weight: 500; font-size: 16px; color: #000000;">Lorem ipsum dolor sit amet consectetur. Elementum nisl sit ut magna cras velit nec orci enim. Suspendisse ultrices eget elit adipiscing diam sed in aenean condimentum. Dignissim consectetur platea odio nulla magnis scelerisque vel. Tellus amet tempus massa ut magnis leo molestie a. Duis rhoncus vel massa sit quam odio. Posuere enim libero mollis tristique lobortis est turpis orci. At mattis tortor cursus dolor ultrices maecenas a tempus. Elementum nisl sit ut magna cras velit nec orci enim. Suspendisse ultrices eget elit adipiscing diam sed in aenean condimentum. Dignissim consectetur platea odio nulla magnis scelerisque vel. Tellus amet tempus massa ut magnis leo molestie a. Duis rhoncus vel massa sit quam odio. Posuere enim libero mollis tristique lobortis est turpis orci. At mattis tortor cursus dolor ultrices maecenas a tempus.</p>
+      </section>
+
+      <!-- 3rd -->
+      <section class="m-auto container justify-content-center align-items-center" >
+          <h1 class="fs-3 mt-5 text-center mb-3 container-lg" style="font-weight: 700;">How It Works</h1>
         <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-lg-3 my-3 mx-auto">
-              <div class="card m-auto" style="width: 18rem; height: 25rem;">
-  <img src="https://images.unsplash.com/photo-1545239351-ef35f43d514b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YmxvZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Blog App</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+  <div class="row" >
+
+    <!-- 1st row -->
+    <div class=" col-lg-4 mb-5">
+      <div
+                class="container m-auto "
+                style="border: 1px solid #7c0b0b; height: 260px; border-radius: 10px; width: 250px; "
+              >
+                <div class="  container  " style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                 <img class="mt-4" src="./images/Group.png" style="height: 50px; width: 50px;" alt="logo">
+               <h5 class=" mb-3 mt-3" style="font-weight: 600; font-size: 15px;">Create Profile</h5>
+               <p style="font-weight: 500; font-size: 12px; text-align: justify;">Lorem ipsum dolor sit amet vitae consectetur. Diam nulla velit odio urna lacinia tincidunt diam tortor. Pellentesque eget lorem nisi auct erat sit sed enim. Amet nunc arcu cursus adipiscing sapie imperdiet.</p>
+            </div>
+            </div>
+</div>
+
+<!-- 2nd row -->
+  <div class="col-lg-4 mb-5">
+      <div
+                class="container m-auto "
+                style="border: 1px solid #7c0b0b; height: 260px; border-radius: 10px; width: 250px; "
+              >
+                <div class="  container " style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                 <img class="mt-4" src="./images/Group (1).png" style="height: 50px; width: 50px;" alt="logo">
+               <h5 class=" mb-3 mt-3" style="font-weight: 600; font-size: 15px;">Find Match</h5>
+               <p style="font-weight: 500; font-size: 12px; text-align: justify;">Lorem ipsum dolor sit amet vitae consectetur. Diam nulla velit odio urna lacinia tincidunt diam tortor. Pellentesque eget lorem nisi auct erat sit sed enim. Amet nunc arcu cursus adipiscing sapie imperdiet.</p>
+            </div>
+            </div>
+</div>
+
+
+<!-- 3rd row -->
+  <div class="col-lg-4 mb-5">
+      <div
+                class="container m-auto "
+                style="border: 1px solid #7c0b0b; height: 260px; border-radius: 10px; width: 250px; "
+              >
+                <div class="  container " style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                 <img class="mt-4" src="./images/Vector.png" style="height: 50px; width: 50px;" alt="logo">
+               <h5 class=" mb-3 mt-3" style="font-weight: 600; font-size: 15px;">Starting Dating</h5>
+               <p style="font-weight: 500; font-size: 12px; text-align: justify;">Lorem ipsum dolor sit amet vitae consectetur. Diam nulla velit odio urna lacinia tincidunt diam tortor. Pellentesque eget lorem nisi auct erat sit sed enim. Amet nunc arcu cursus adipiscing sapie imperdiet.</p>
+            </div>
+            </div>
+</div>
+
+    </div>
+    
+   
   </div>
-</div></div>
-            <div class="col-lg-3 my-3 mx-auto">
-              <div class="card m-auto" style="width: 18rem; height: 25rem;">
-  <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJsb2d8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">E-commerce</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div></div>
-            <div class="col-lg-3 my-3 mx-auto">
-              <div class="card m-auto" style="width: 18rem; height: 25rem;">
-  <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGJsb2d8ZW58MHx8MHx8fDA%3Dhttps://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGJsb2d8ZW58MHx8MHx8fDA%3D..." class="card-img-top height" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Education</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div></div>
-          </div>
+
+      </section>
+
+      <!-- 4th -->
+      <section>
+           
+          <div class="container ">
+             <h1 class="fs-3 mt-5 text-center mb-5 container-lg" style="font-weight: 700;">Most Popular Members</h1>
+      <div class="row " style="justify-content: space-around; align-items: center;" >
+
+    <!-- 1st column -->
+    <div class=" col-lg-2 mb-5 me-1 " style="gap: 10px;">
+      <div
+                class="container m-auto "
+         style="height: 198px; width: 220px; background-color: #7C0B0B; color: #FFFFFF; border-radius: 30px; border: 1px;"
+              >
+                <div class="container" style="display: flex;flex-direction: column; justify-content: center;align-items: center;">
+        <img class="mt-4" src="./images/Ellipse 1.png" alt="mary bells">
+        <h4 class="mt-3" style="font-weight: 700; font-size: 16px;">Mary Bells</h4>
+        <p class="mt-3"  style="font-weight: 500; font-size: 12px;">Joined three months ago</p>
+      </div>
+            </div>
+</div>
+
+<!-- 2nd column  -->
+  <div class=" col-lg-2 mb-5 me-1">
+      <div
+                class="container m-auto "
+         style="height: 198px; width: 220px; background-color: #7C0B0B; color: #FFFFFF; border-radius: 30px; border: 1px;"
+              >
+                <div class="container" style="display: flex;flex-direction: column; justify-content: center;align-items: center;">
+        <img class="mt-4" src="./images/Ellipse 1 (1).png" alt="Stella John">
+        <h4 class="mt-3" style="font-weight: 700; font-size: 16px;">Stella John</h4>
+        <p class="mt-3"  style="font-weight: 500; font-size: 12px;">Joined two months ago</p>
+      </div>
+            </div>
+</div>
+
+
+<!-- 3rd column  -->
+  <div class=" col-lg-2 mb-5 me-1 " >
+      <div
+                class="container m-auto "
+         style="height: 198px; width: 220px; background-color: #7C0B0B; color: #FFFFFF; border-radius: 30px; border: 1px;"
+              >
+                <div class="container" style="display: flex;flex-direction: column; justify-content: center;align-items: center;">
+        <img class="mt-4" src="./images/Ellipse 1 (2).png" alt="Role Pails">
+        <h4 class="mt-3" style="font-weight: 700; font-size: 16px;">Role Pails</h4>
+        <p class="mt-3"  style="font-weight: 500; font-size: 12px;">Joined four months ago</p>
+      </div>
+            </div>
+</div>
+
+<!-- 4th column -->
+  <div class=" col-lg-2 mb-5 me-1 " >
+      <div
+                class="container m-auto "
+         style="height: 198px; width: 220px; background-color: #7C0B0B; color: #FFFFFF; border-radius: 30px; border: 1px;"
+              >
+                <div class="container" style="display: flex;flex-direction: column; justify-content: center;align-items: center;">
+        <img class="mt-4" src="./images/Ellipse 1 (3).png" alt="Kingsley Sly">
+        <h4 class="mt-3" style="font-weight: 700; font-size: 16px;">Kingsley Sly</h4>
+        <p class="mt-3"  style="font-weight: 500; font-size: 12px;">Joined three months ago</p>
+      </div>
+            </div>
+</div>
+
+
+    </div>
+
+    </div>
+
+
+    <!-- 2nd row -->
+      <div class="container ">
+      <div class="row " style="justify-content: space-around; align-items: center;" >
+
+    <!-- 1st column  -->
+    <div class=" col-lg-2 mb-5 me-1 " style="gap: 10px;">
+      <div
+                class="container m-auto "
+         style="height: 198px; width: 220px; background-color: #7C0B0B; color: #FFFFFF; border-radius: 30px; border: 1px;"
+              >
+                <div class="container" style="display: flex;flex-direction: column; justify-content: center;align-items: center;">
+        <img class="mt-4" src="./images/Ellipse 1 (4).png" alt="Steven Soul">
+        <h4 class="mt-3" style="font-weight: 700; font-size: 16px;">Steven Soul</h4>
+        <p class="mt-3"  style="font-weight: 500; font-size: 12px;">Joined two months ago</p>
+      </div>
+            </div>
+</div>
+
+<!-- 2nd column -->
+  <div class=" col-lg-2 mb-5 me-1">
+      <div
+                class="container m-auto "
+         style="height: 198px; width: 220px; background-color: #7C0B0B; color: #FFFFFF; border-radius: 30px; border: 1px;"
+              >
+                <div class="container" style="display: flex;flex-direction: column; justify-content: center;align-items: center;">
+        <img class="mt-4" src="./images/Ellipse 1 (5).png" alt="May Blue">
+        <h4 class="mt-3" style="font-weight: 700; font-size: 16px;">May Blue</h4>
+        <p class="mt-3"  style="font-weight: 500; font-size: 12px;">Joined three months ago</p>
+      </div>
+            </div>
+</div>
+
+
+<!-- 3rd column  -->
+  <div class=" col-lg-2 mb-5 me-1 " >
+      <div
+                class="container m-auto "
+         style="height: 198px; width: 220px; background-color: #7C0B0B; color: #FFFFFF; border-radius: 30px; border: 1px;"
+              >
+                <div class="container" style="display: flex;flex-direction: column; justify-content: center;align-items: center;">
+        <img class="mt-4" src="./images/Ellipse 1 (6).png" alt="Paul Doe">
+        <h4 class="mt-3" style="font-weight: 700; font-size: 16px;">Paul Doe</h4>
+        <p class="mt-3"  style="font-weight: 500; font-size: 12px;">Joined three months ago</p>
+      </div>
+            </div>
+</div>
+
+<!-- 4th column -->
+  <div class=" col-lg-2 mb-5 me-1 " >
+      <div
+                class="container m-auto "
+         style="height: 198px; width: 220px; background-color: #7C0B0B; color: #FFFFFF; border-radius: 30px; border: 1px;"
+              >
+                <div class="container" style="display: flex;flex-direction: column; justify-content: center;align-items: center;">
+        <img class="mt-4" src="./images/Ellipse 1 (7).png" alt="Kelvin Job">
+        <h4 class="mt-3" style="font-weight: 700; font-size: 16px;">Kelvin Job</h4>
+        <p class="mt-3"  style="font-weight: 500; font-size: 12px;">Joined four months ago</p>
+      </div>
+            </div>
+</div>
+
+
+    </div>
+
+    </div>
+ <button style="border-radius: 10px; display: block; margin: auto; width: 83px; height: 40px; font-weight: 500; font-size: 16px; background-color: #7c0b0b; border: none; color: #FFFFFF;">View all</button>
+      </section>
+  
+
+
+
+
+      <!-- 4th -->
+     
+
+
+      <!-- 5th -->
+        <section class="m-auto container-lg justify-content-center align-items-center" >
+        <div>
+          <h1 class="fs-3 mt-5 text-center mb-3 container-lg" style="font-weight: 700;">Testimonials</h1>
+        <p class=" text-center mb-3 container-lg"  style="color: #7C0B0B; font-size: 15px; font-weight: 500;">Our Clients Say</p>
         </div>
+        <div class="container-lg ">
+  <div class="row" >
+
+    <!-- 1st row -->
+    <div class=" col-lg-4 mb-5">
+      <div
+                class="container m-auto "
+                style="background-color: #7C0B0B66; height: 260px; border-radius: 10px; width: 250px; "
+              >
+                <div class="  container-lg  " style="display: flex; flex-direction: column; ">
+               <p class="mt-5" style="font-weight: 500; font-size: 12px; text-align: justify;">Lorem ipsum dolor sit amet vitae consectetur. Diam nulla velit odio urna lacinia tincidunt diam tortor. Pellentesque eget lorem nisi auct erat sit sed enim. Amet nunc arcu cursus adipiscing sapie imperdiet.</p>
+                <p class="mt-3 " style="  display: flex; justify-content: start;align-items: center;gap:20px; font-weight: 700; font-size: 12px;
+;"><img src="./images/Ellipse 2.png" alt="  Paul" width="40px"> Paul Doe</p>
+              </div>
+            </div>
+</div>
+
+<!-- 2nd row -->
+<div class=" col-lg-4 mb-5">
+      <div
+                class="container m-auto "
+                style="background-color: #7C0B0B66; height: 260px; border-radius: 10px; width: 250px; "
+              >
+                <div class="  container-lg  " style="display: flex; flex-direction: column; ">
+               <p class="mt-5" style="font-weight: 500; font-size: 12px; text-align: justify;">Lorem ipsum dolor sit amet vitae consectetur. Diam nulla velit odio urna lacinia tincidunt diam tortor. Pellentesque eget lorem nisi auct erat sit sed enim. Amet nunc arcu cursus adipiscing sapie imperdiet.</p>
+                <p class="mt-3 " style="  display: flex; justify-content: start;align-items: center;gap:20px; font-weight: 700; font-size: 12px;
+;"><img src="./images/Ellipse 3.png" alt="  Paul" width="40px"> Kelvin Job</p>
+              </div>
+            </div>
+</div>
+
+
+<!-- 3rd row -->
+ <div class=" col-lg-4 mb-5">
+      <div
+                class="container m-auto "
+                style="background-color: #7C0B0B66; height: 260px; border-radius: 10px; width: 250px; "
+              >
+                <div class="  container-lg  " style="display: flex; flex-direction: column; ">
+               <p class="mt-5" style="font-weight: 500; font-size: 12px; text-align: justify;">Lorem ipsum dolor sit amet vitae consectetur. Diam nulla velit odio urna lacinia tincidunt diam tortor. Pellentesque eget lorem nisi auct erat sit sed enim. Amet nunc arcu cursus adipiscing sapie imperdiet.</p>
+                <p class="mt-3 " style="  display: flex; justify-content: start;align-items: center;gap:20px; font-weight: 700; font-size: 12px;
+;"><img src="./images/Ellipse 3 (1).png" alt="  Paul" width="40px"> Mary Bells</p>
+              </div>
+            </div>
+</div>
+
+    </div>
+    
+   
+  </div>
+
       </section>
-    </main>
 
-    <footer class="bg-info-subtle py-4">
-       <div class="container text-center">
-        <h2 class="text-info"> Jane Doe</h2>
-        <p>©️ 2024 All Rights Reserved</p>
+      <!-- 6th -->
+      <section>
+        <div class="text-center mt-5 container" >
+          <h4 style="font-weight: 700;">Subscribe To Our Newsletter</h4>
+          <p class="mb-5" style="color: #7C0B0B; font-size: 16px; font-weight: 500; ">Stay up to date with our latest updates and find someone of similar passion as you</p>
+          <div class="position-relative container" >
+            <input for="email" id="email" placeholder="Your Email" class="form-control mb-3 d-block m-auto p-4" style="border: 2px solid #7C0B0B; border-radius: 30px ; width: 560px; height: 54px;"> </input>
+        <button class="position-absolute top-0 container" style="border-radius: 30px; background-color: #7C0B0B; color: white; width: 164px; height: 54px; border: none; 
+  ">Subscribe</button>
+          </div>
 
-       </div>
+        
+        
+        </div>
+
+       
+      </section>
+  </main>
+
+    <footer  style="background-color: #7C0B0B; z-index: 2; ">
+      <!-- first div for the footer -->
+
+        <div class="container " >
+  <div class="row" >
+    <div class="col-8" style="width: 695px; height: 112px; border-radius: 30px; background-color: #ffffff; margin-top: 90px;">
+      <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+         <div class="mt-3 ms-5">
+      <img class="img-fluid" src="./images/Frame 11.png" alt="logo">
+      <p style="margin-top: -35px; font-weight: 700; font-size: 16px;" >Are you ready?</p>
+    </div>
+
+    <div >
+      <button class="me-5" style="width: 144.32px; border-radius: 10px; height: 40px; gap: 10px; background-color: #7C0B0B; color: #FFFFFF; border: none;"> Get Started</button>
+    </div>
+      </div>
+   
+      
+    </div>
+    <div class="col-lg-4   " style="justify-content: end;" >
+      <div class="" style="text-align: justify; display: flex; flex-direction: row; justify-content: space-between;  margin-top: 90px; ">
+        <div  >
+          <ul class="container "  style="list-style-type: none; color: #FFFFFF; font-weight: 500; font-size: 16px;">
+            <li>  About Us</li>
+            <li>Contact</li>
+            <li>Newsletter</li>
+            <li>Testimonials</li>
+          </ul>
+        </div>
+
+         <div>
+          <ul class="container"  style="list-style-type: none; color: #FFFFFF; font-weight: 500; font-size: 16px;">
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Help Centre</li>
+            <li>FAQs</li>
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+   
+  </div>
+</div>
+
+<!-- 2nd div for the footer -->
+     
+<div class="container mt-4" style="display: flex; gap: 20px;">
+  <i class="bi bi-facebook" ></i>
+  <i class="bi bi-twitter"></i>
+  <i class="bi bi-instagram"></i>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- <div class="container" ><ul style=" list-style-type: none; color: #FFFFFF; font-weight: 500; font-size: 16px;"  >
+            <li ></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul></div> -->
+        </div>
+      </div> 
+
+     <!-- <div class="container-lg justify-content-center">
+  <div class="row mx-3" style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+    <div class=" col-sm-6 col-lg-5" style="width: 695px; height: 112px; border-radius: 30px; background-color: #FFFFFF; ">
+      Column
+    </div>
+    <div class="col-sm-6 col-lg-3" style="">
+      <div style="display: flex;flex-direction: row;">
+        <div>
+          <ul>
+            <li>  About Us</li>
+            <li>Contact</li>
+            <li>Newsletter</li>
+            <li>Testimonials</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Help Centre</li>
+            <li>FAQs</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+   
+  </div>
+</div>  -->
+     
     </footer>
 
- <section id="about" class="py-4  ">
-        <div class="container-lg mt-5">
-          <div class="row justify-content-between">
-            <div class="col-lg-5 ">
-              <div class="row container justify-content-center " style="border: 1px solid #7C0B0B
-;">
-            <h1 class="text-start mt-5 fs-5" style="color: #7C0B0B;">Find True Love</h1>
-            <p class="text-start " style="color: #7C0B0B;">Your Perfect Match Is Just One Click Away</p>
-            <div class="">
-              <form  class=" ">
-                <label for="name" class="form-label mt-2">I am a:</label>
-                <input for="text" id="name" placeholder="Man Seeking a Woman " class="form-control mb-3" style="border: 1px solid #7C0B0B; border-radius: 0px;"></input>
-              
-              <label for="name" class="form-label mt-2">Name*</label>
-                <input for="text" id="name" placeholder="John Bull" class="form-control mb-3 " style="border: 1px solid #7C0B0B; border-radius: 0px;"></input>
-                  <label for="name" class="form-label mt-2">Email Address*</label>
-                <input for="email" id="email" placeholder="Enter Email" class="form-control mb-3" style="border: 1px solid #7C0B0B; border-radius: 0px ;"></input>
 
-                <label for="msg" class="form-label mt-2">Zip-code*</label>
-                <input for="text" id="text" placeholder="xxx-xxx-xxx" class="form-control  mb-3" style="border: 1px solid #7C0B0B; border-radius: 0px;"></input>
 
-                <button
-              type="button"
-              class="btn btn-lg-flex justify-content-center mt-2 mb-5 "
-              style="background-color: #7c0b0b; color: #ffffff"
-            >
-              Login
-            </button>
-              </form>
-            </div>
-          </div>
-            </div>
-            <div class="col-lg-5  m-auto">
-              <img
-                src="./Rectangle 4.png"
-                class="img-fluid"
-                height="500px"
-                alt="couples"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
-
-
-
-
-
-
-
-
-
-  <section id="about" class="py-4">
-        <div class="container mt-5 ">
-          <div class="row justify-content-between">
-            <!-- row1 -->
-            <div class="col-lg-5 ">
-              <div class="container m-auto justify-content-center " style="border: 1px solid #7C0B0B
-;">
-            <h1 class="text-start mt-5 fs-5" style="color: #7C0B0B;">Find True Love</h1>
-            <p class="text-start " style="color: #7C0B0B;">Your Perfect Match Is Just One Click Away</p>
-            <div class="">
-              <form  class=" ">
-                <label for="name" class="form-label mt-2">I am a:</label>
-                <input for="text" id="name" placeholder="Man Seeking a Woman " class="form-control mb-3" style="border: 1px solid #7C0B0B; border-radius: 0px;"></input>
-              
-              <label for="name" class="form-label mt-2">Name*</label>
-                <input for="text" id="name" placeholder="John Bull" class="form-control mb-3 " style="border: 1px solid #7C0B0B; border-radius: 0px;"></input>
-                  <label for="name" class="form-label mt-2">Email Address*</label>
-                <input for="email" id="email" placeholder="Enter Email" class="form-control mb-3" style="border: 1px solid #7C0B0B; border-radius: 0px ;"></input>
-
-                <label for="msg" class="form-label mt-2">Zip-code*</label>
-                <input for="text" id="text" placeholder="xxx-xxx-xxx" class="form-control  mb-3" style="border: 1px solid #7C0B0B; border-radius: 0px;"></input>
-
-                <button
-              type="button"
-              class="btn btn-lg-flex justify-content-center mt-2 mb-5 "
-              style="background-color: #7c0b0b; color: #ffffff"
-            >
-              Login
-            </button>
-              </form>
-            </div>
-          </div>
-            </div>
-          <div class="  container-fluid col-lg-5  m-auto">
-              <img
-                src="./Rectangle 4.png"
-                class="img-fluid"
-              
-                alt="couples"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="text-center mt-5 container-lg">
-          <h1>About Us</h1>
-          <p style="font-weight: 500;">Lorem ipsum dolor sit amet consectetur. Elementum nisl sit ut magna cras velit nec orci enim. Suspendisse ultrices eget elit adipiscing diam sed in aenean condimentum. Dignissim consectetur platea odio nulla magnis scelerisque vel. Tellus amet tempus massa ut magnis leo molestie a. Duis rhoncus vel massa sit quam odio. Posuere enim libero mollis tristique lobortis est turpis orci. At mattis tortor cursus dolor ultrices maecenas a tempus. Elementum nisl sit ut magna cras velit nec orci enim. Suspendisse ultrices eget elit adipiscing diam sed in aenean condimentum. Dignissim consectetur platea odio nulla magnis scelerisque vel. Tellus amet tempus massa ut magnis leo molestie a. Duis rhoncus vel massa sit quam odio. Posuere enim libero mollis tristique lobortis est turpis orci. At mattis tortor cursus dolor ultrices maecenas a tempus.</p>
-        </div>
-      </section>
-
-
-
-        <section id="works" class=" py-4">
-       
-         <h1 class="fs-3 text-center" style="font-weight: 700;">How It Works</h1>
-         <div class="m-5 container-lg " style="display: flex; flex-direction: row; justify-content: space-around; align-items: center;">
- <div >
-              
-            <div class=" text-center p-4  " style="display: flex; flex-direction: column;  align-items: center; height: 300px; width: 18rem; border: 1px solid #7c0b0b; border-radius: 30px;">
-            <img class="mb-3" src="./Group.png" style="height: 50px; width: 50px;" alt="logo">
-               <h5 class="fs-5 mb-3" style="font-weight: 500;">Create Profile</h5>
-               <p style="font-weight: 500;">Lorem ipsum dolor sit amet vitae consectetur. Diam nulla velit odio urna lacinia tincidunt diam tortor. Pellentesque eget lorem nisi auct erat sit sed enim. Amet nunc arcu cursus adipiscing sapie imperdiet.</p>
-            </div>
-          </div>
-
-           <div class="col-lg-3 ">
-              
-            <div class=" text-center p-4  " style="display: flex; flex-direction: column;  align-items: center; height: 300px; width: 20rem; border: 1px solid #7c0b0b; border-radius: 30px;">
-            <img class="mb-3" src="./Group.png" style="height: 50px; width: 50px;" alt="logo">
-               <h5 class="fs-5 mb-3" style="font-weight: 500;">Create Profile</h5>
-               <p style="font-weight: 500;">Lorem ipsum dolor sit amet vitae consectetur. Diam nulla velit odio urna lacinia tincidunt diam tortor. Pellentesque eget lorem nisi auct erat sit sed enim. Amet nunc arcu cursus adipiscing sapie imperdiet.</p>
-            </div>
-          </div>
-           <div class="col-lg-3 ">
-              
-            <div class=" text-center p-4  " style="display: flex; flex-direction: column;  align-items: center; height: 300px; width: 20rem; border: 1px solid #7c0b0b; border-radius: 30px;">
-            <img class="mb-3" src="./Group.png" style="height: 50px; width: 50px;" alt="logo">
-               <h5 class="fs-5 mb-3" style="font-weight: 500;">Create Profile</h5>
-               <p style="font-weight: 500;">Lorem ipsum dolor sit amet vitae consectetur. Diam nulla velit odio urna lacinia tincidunt diam tortor. Pellentesque eget lorem nisi auct erat sit sed enim. Amet nunc arcu cursus adipiscing sapie imperdiet.</p>
-            </div>
-          </div>
-         </div>
-            
-
-           
-         
-          </div>
-       </div>
-      </section>
-
-
-      <section id="about" class=" py-4">
-        <div class="container-lg">
-          <div class="row">
-            <div class="col-lg-3 my-5">
-                <div class=" text-center p-4 container-lg mb-3 " style="display: flex; flex-direction: column;  align-items: center; height: 300px; width: 19rem; border: 1px solid #7c0b0b; border-radius: 30px;">
-            <img class="mb-3" src="./Group.png" style="height: 50px; width: 50px;" alt="logo">
-               <h5 class="fs-5 mb-3" style="font-weight: 500;">Create Profile</h5>
-               <p style="font-weight: 500;">Lorem ipsum dolor sit amet vitae consectetur. Diam nulla velit odio urna lacinia tincidunt diam tortor. Pellentesque eget lorem nisi auct erat sit sed enim. Amet nunc arcu cursus adipiscing sapie imperdiet.</p>
-            </div>
-            </div>
-
-            <!-- 2nd col -->
-            <div class="col-lg-3 my-5">
-              
-               <div class=" text-center p-4 container-lg " style="display: flex; flex-direction: column;  align-items: center; height: 300px; width: 19rem; border: 1px solid #7c0b0b; border-radius: 30px;">
-            <img class="mb-3" src="./Group.png" style="height: 50px; width: 50px;" alt="logo">
-               <h5 class="fs-5 mb-3" style="font-weight: 500;">Create Profile</h5>
-               <p style="font-weight: 500;">Lorem ipsum dolor sit amet vitae consectetur. Diam nulla velit odio urna lacinia tincidunt diam tortor. Pellentesque eget lorem nisi auct erat sit sed enim. Amet nunc arcu cursus adipiscing sapie imperdiet.</p>
-            </div>
-            </div>
-            <!-- 3rd col -->
-
-            <div class="col-lg-3 my-5">
-                <div class=" text-center p-4 container-lg  " style="display: flex; flex-direction: column;  align-items: center; height: 300px; width: 19rem; border: 1px solid #7c0b0b; border-radius: 30px;">
-            <img class="mb-3" src="./Group.png" style="height: 50px; width: 50px;" alt="logo">
-               <h5 class="fs-5 mb-3" style="font-weight: 500;">Create Profile</h5>
-               <p style="font-weight: 500;">Lorem ipsum dolor sit amet vitae consectetur. Diam nulla velit odio urna lacinia tincidunt diam tortor. Pellentesque eget lorem nisi auct erat sit sed enim. Amet nunc arcu cursus adipiscing sapie imperdiet.</p>
-            </div>
-            </div>
-          </div>
-        </div>
-      </section>
+</html>
